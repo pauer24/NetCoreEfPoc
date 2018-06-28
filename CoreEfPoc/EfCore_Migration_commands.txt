@@ -1,0 +1,7 @@
+﻿Insert first/any migration: add-migration <MigrationName>
+Remove last migration: remove-migration
+
+Update database to lastest version: update-database
+Update database to specific migration: update-database -Migration <MigrationName>
+
+Script a set of migrations actions that would apply to the Db: script-migration -From <OriginMigrationName> -To <TargetMigrationName>
